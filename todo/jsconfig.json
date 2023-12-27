@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": [
+        "app/components/*"
+      ],
+      "@todoApi": [
+        "app/_services/todoApi"
+      ],
+      "@utils/*": [
+        "app/utils/*"
+      ]
+    }
+  }
+}
